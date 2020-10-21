@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import com.guru99.pages.LoginPage;
 import com.guru99.utils.TestDataProviderFromExcel;
+import com.guru99.utils.TestDataSource;
 
 import commonLibs.implementation.CommonDriver;
 
@@ -29,7 +30,7 @@ public class LoginPageTests {
 		
 	}
 	
-	@Test(dataProvider = "getData", dataProviderClass = TestDataProviderFromExcel.class)
+	@Test(dataProvider = "getDataFromDb", dataProviderClass = TestDataSource.class)
 	public void verifyLogin(String sUsername, String sPassword) throws Exception{
 		
 		loginPage.loginToApplication(sUsername, sPassword);
