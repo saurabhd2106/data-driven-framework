@@ -3,11 +3,10 @@ package com.guru99.tests;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.guru99.pages.LoginPage;
-import com.guru99.utils.TestDataProviderFromExcel;
-import com.guru99.utils.TestDataSource;
 
 import commonLibs.implementation.CommonDriver;
 
@@ -30,7 +29,8 @@ public class LoginPageTests {
 		
 	}
 	
-	@Test(dataProvider = "getDataFromDb", dataProviderClass = TestDataSource.class)
+	@Parameters({"username", "userPassword"})
+	@Test
 	public void verifyLogin(String sUsername, String sPassword) throws Exception{
 		
 		loginPage.loginToApplication(sUsername, sPassword);

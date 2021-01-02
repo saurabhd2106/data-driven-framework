@@ -1,61 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23793" started-at="2020-10-22T00:14:58 IST" finished-at="2020-10-22T00:15:22 IST">
+  <suite started-at="2021-01-02T17:33:20 GMT" name="Suite" finished-at="2021-01-02T17:33:35 GMT" duration-ms="15421">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23793" started-at="2020-10-22T00:14:58 IST" finished-at="2020-10-22T00:15:22 IST">
+    <test started-at="2021-01-02T17:33:20 GMT" name="Test" finished-at="2021-01-02T17:33:35 GMT" duration-ms="15421">
       <class name="com.guru99.tests.LoginPageTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru99.tests.LoginPageTests@1e965684]" name="setup" is-config="true" duration-ms="9712" started-at="2020-10-22T00:14:59 IST" finished-at="2020-10-22T00:15:09 IST">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.guru99.tests.LoginPageTests@31f9b85e]" started-at="2021-01-02T17:33:20 GMT" name="setup" finished-at="2021-01-02T17:33:25 GMT" duration-ms="5409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.tests.LoginPageTests@1e965684]" name="verifyLogin" duration-ms="1383" started-at="2020-10-22T00:15:09 IST" data-provider="getDataFromDb" finished-at="2020-10-22T00:15:10 IST">
+        <test-method signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.tests.LoginPageTests@31f9b85e]" started-at="2021-01-02T17:33:25 GMT" name="verifyLogin" finished-at="2021-01-02T17:33:34 GMT" duration-ms="8837" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[mngr291513]]>
+                <![CDATA[mngr302322]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[ezequzE]]>
+                <![CDATA[jUrYnut]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.guru99.tests.LoginPageTests@1e965684]" name="cleanUp" is-config="true" duration-ms="778" started-at="2020-10-22T00:15:10 IST" finished-at="2020-10-22T00:15:11 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru99.tests.LoginPageTests@1e965684]" name="setup" is-config="true" duration-ms="8945" started-at="2020-10-22T00:15:11 IST" finished-at="2020-10-22T00:15:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.tests.LoginPageTests@1e965684]" name="verifyLogin" duration-ms="1431" started-at="2020-10-22T00:15:20 IST" data-provider="getDataFromDb" finished-at="2020-10-22T00:15:22 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr291513]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ezequzE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.guru99.tests.LoginPageTests@1e965684]" name="cleanUp" is-config="true" duration-ms="646" started-at="2020-10-22T00:15:22 IST" finished-at="2020-10-22T00:15:22 IST">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.guru99.tests.LoginPageTests@31f9b85e]" started-at="2021-01-02T17:33:34 GMT" name="cleanUp" finished-at="2021-01-02T17:33:35 GMT" duration-ms="1118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- com.guru99.tests.LoginPageTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
